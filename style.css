@@ -1,8 +1,12 @@
-.titulo{
-    
-    
-    text-align: center; 
-    margin: 20px auto 0;
+.logo{  
+    width: 200px;
+    max-width: 50px;
+    height: 50px;
+    max-height: 50px;
+    margin-left: 30%;
+    margin-right: 25%;
+    border: 1px;
+    box-sizing: border-box;
 }
 
 .titulo2{
