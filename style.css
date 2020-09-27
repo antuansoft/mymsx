@@ -1,69 +1,70 @@
-.logo{  
-    width: 200px;
-    max-width: 50px;
-    height: 50px;
-    max-height: 50px;
-    margin-left: 30%;
-    margin-right: 25%;
-    border: 1px;
-    box-sizing: border-box;
+@font-face {
+    font-family: Titillium Web;
+    src: url(fonts/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2);
+  }
+@font-face {
+    font-family: ArcadeClassic;
+    src: url(fonts/ARCADECLASSIC.TTF);
+}
+@font-face {
+    font-family: F1-regular;
+    src: url(fonts/Formula1-Regular.woff2);
 }
 
+.titulo1{
+
+    text-align: center;
+    font-size: 78px;
+    line-height: 36px;
+    font-family: "ArcadeClassic";
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
 .titulo2{
 
     font-size: 32px;
     line-height: 36px;
     font-family: "Titillium Web";
     margin-bottom: 10px;
+    text-align: center;
 }
 .titulo3{
     color: #e10600;
     font-family: "Titillium Web";
-    font-size: 25px;
+    font-size: 45px;
     line-height: 14px;
     letter-spacing: .5px;
     text-transform: uppercase;
     font-weight: 700;
-}
-
-.listado{
     text-align: center;
 }
 
+
 .nombre_juego{
 
-    font-size: 16px;
+    font-size: 25px;
+    font-family: F1-regular;
     letter-spacing: .2px;
     line-height: 18px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    box-sizing: border-box;
-    overflow-wrap:break-word;
-    
+    margin-bottom: 15px;
+    margin-left: 100px;   
+    text-align: left;
 }
 
 .caja_juego{
-    
-    box-sizing: border-box;
-    font-family: "Titillium Web";
-    font-size: 17px;
-    letter-spacing: 0.2px;
-    line-height: 23px;
-    margin-left: 14.5px;
-    margin-right: 14.5px;
-    max-width: 1320px;
+    margin-left: 70px;   
+    max-width: 100%;
     padding-left: 10px;
     padding-right: 10px;
-    width: 100%
+    width: 100%;
+    height: auto;
+
 }
 .imagen_juego{
 
-    display: inline;
-    width: auto;
     max-width: 20%;
-    height: auto;
     max-height: 25%;
-    box-sizing: border-box;
+    
 }
