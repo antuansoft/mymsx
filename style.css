@@ -11,6 +11,26 @@
     src: url(fonts/Formula1-Regular.woff2);
 }
 
+a:link  {
+    text-decoration: none;
+    color: #e10600;
+}
+
+a:visited  {
+    text-decoration: none;
+    color: #eb8612;
+}
+
+a:hover  {
+    text-decoration: none;
+    color: #eb1298;
+}
+
+a:active  {
+    text-decoration: none;
+    color: #3af10c;
+}
+
 .titulo1{
 
     text-align: center;
