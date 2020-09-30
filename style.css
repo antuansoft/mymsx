@@ -31,6 +31,26 @@ a:active  {
     color: #3af10c;
 }
 
+.migas {
+    padding-left: 5px;
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "F1-regular";
+    }
+  
+ .migas ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    }
+  
+ .migas ul li {
+    list-style: none;
+    display: inline;
+    }
+  
+
 .titulo1{
 
     text-align: center;
