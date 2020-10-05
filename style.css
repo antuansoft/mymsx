@@ -72,7 +72,7 @@ a:active  {
 .titulo3{
     color: #e10600;
     font-family: "ArcadeClassic";
-    font-size: 45px;
+    font-size: 60px;
     line-height: 14px;
     letter-spacing: .5px;
     text-transform: uppercase;
@@ -80,6 +80,34 @@ a:active  {
     text-align: center;
 }
 
+.nombre_seccion{
+
+    font-size: 40px;
+    font-family: ArcadeClassic;
+    letter-spacing: .2px;
+    line-height: 18px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 100px;   
+    text-align: center;
+}
+
+.caja_seccion{
+    margin-left: 70px;   
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    text-align: center;
+
+}
+.imagen_seccion{
+
+    max-width: 20%;
+    max-height: 25%;
+    
+}
 
 .nombre_juego{
 
