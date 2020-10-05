@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ 
+    <head lang="es">
+
+        <meta charset="UTF-8">
+        <title>ANTUAN - GAMES</title>
+        <meta name="Juegos MSX" content="Juego: ">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="js/games_data.js"></script>
+        <script src="js/game.js"></script>
+        <script>
+        //ShowData
+        window.onload = function(){
+                
+                document.getElementById("breadcrump_game").innerHTML = "/"+breadcrumb_name;
+                document.getElementById("game_name").innerHTML = game_name;
+                document.getElementById("game_name_url").href = game_player;
+                
+        }       
+        </script>
+    </head>
+
+    <body background="background/newyork.jpg">
+
+        <p class="titulo1">
+            Antuan Games
+        </p>
+        <div class="migas">
+            <ul>
+                <li><a href="index.html">Portada</a></li>
+                <li><a href="favorites.html">/Favoritos</a></li>
+                <li id="breadcrump_game">/Juego</li>
+             </ul>
+        </div>
+        <p class="titulo3">MSX</p>
+
+        <a id="game_name_url" href="#" target="_blank">
+            <p id="game_name" class="nombre_juego">nombre juego</p>
+        </a>
+        <div class="caja_juego">
+            <a href="player.html?DISK=games/FreddyHardest.dsk&SCREEN_FULLSCREEN_MODE=1" target="_blank">
+                <img class="imagen_juego" src="images/FreddyHardest_logo.JPG"/>
+            </a>
+            <a href="player.html?DISK=games/FreddyHardest.dsk&SCREEN_FULLSCREEN_MODE=1" target="_blank">
+                <img class="imagen_juego" src="images/FreddyHardest_1.JPG"/>
+            </a>
+            <a href="player.html?DISK=games/FreddyHardest.dsk&SCREEN_FULLSCREEN_MODE=1" target="_blank">
+                <img class="imagen_juego" src="images/FreddyHardest_2.JPG"/>
+            </a>
+            <a href="player.html?DISK=games/FreddyHardest.dsk&SCREEN_FULLSCREEN_MODE=1" target="_blank">
+                <img class="imagen_juego" src="images/FreddyHardest_3.JPG"/>
+            </a>
+        </div>
+
+
+    </body>
+
+</html>
