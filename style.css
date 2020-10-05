@@ -13,22 +13,22 @@
 
 a:link  {
     text-decoration: none;
-    color: #e10600;
+    color: #B8860B;
 }
 
 a:visited  {
     text-decoration: none;
-    color: #eb8612;
+    color: #D2691E;
 }
 
 a:hover  {
     text-decoration: none;
-    color: #eb1298;
+    color: #DAA520;
 }
 
 a:active  {
     text-decoration: none;
-    color: #3af10c;
+    color: #A0522D;
 }
 
 .migas {
@@ -37,7 +37,7 @@ a:active  {
     color: #000000;
     text-decoration: none;
     background-color: transparent;
-    font-family: "F1-regular";
+    font-family: "ArcadeClassic";
     }
   
  .migas ul {
@@ -65,13 +65,13 @@ a:active  {
 
     font-size: 32px;
     line-height: 36px;
-    font-family: "Titillium Web";
+    font-family: "ArcadeClassic";
     margin-bottom: 10px;
     text-align: center;
 }
 .titulo3{
     color: #e10600;
-    font-family: "Titillium Web";
+    font-family: "ArcadeClassic";
     font-size: 45px;
     line-height: 14px;
     letter-spacing: .5px;
@@ -84,7 +84,7 @@ a:active  {
 .nombre_juego{
 
     font-size: 40px;
-    font-family: F1-regular;
+    font-family: ArcadeClassic;
     letter-spacing: .2px;
     line-height: 18px;
     margin-top: 10px;
