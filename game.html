@@ -15,7 +15,12 @@
                 
                 document.getElementById("breadcrump_game").innerHTML = "/"+breadcrumb_name;
                 document.getElementById("game_name").innerHTML = game_name;
-                document.getElementById("game_name_url").href = game_player;
+                //document.getElementById("game_url").href = game_player;
+                document.getElementById("image_logo").src = image_game_logo;
+                document.getElementById("image_1").src = image_game_1;
+                document.getElementById("image_2").src = image_game_2;
+                document.getElementById("image_3").src = image_game_3;
+                
                 
         }       
         </script>
@@ -33,26 +38,38 @@
                 <li id="breadcrump_game">/Juego</li>
              </ul>
         </div>
-        <p class="titulo3">MSX</p>
+        <p class="titulo3" id="game_name">JUEGO</p>
 
-        <a id="game_name_url" href="#" target="_blank">
-            <p id="game_name" class="nombre_juego">nombre juego</p>
-        </a>
+        <p class="nombre_juego">Screen-shots</p>
+
         <div class="caja_juego">
-            <a href="player.html?DISK=games/FreddyHardest.dsk&SCREEN_FULLSCREEN_MODE=1" target="_blank">
-                <img class="imagen_juego" src="images/FreddyHardest_logo.JPG"/>
-            </a>
-            <a href="player.html?DISK=games/FreddyHardest.dsk&SCREEN_FULLSCREEN_MODE=1" target="_blank">
-                <img class="imagen_juego" src="images/FreddyHardest_1.JPG"/>
-            </a>
-            <a href="player.html?DISK=games/FreddyHardest.dsk&SCREEN_FULLSCREEN_MODE=1" target="_blank">
-                <img class="imagen_juego" src="images/FreddyHardest_2.JPG"/>
-            </a>
-            <a href="player.html?DISK=games/FreddyHardest.dsk&SCREEN_FULLSCREEN_MODE=1" target="_blank">
-                <img class="imagen_juego" src="images/FreddyHardest_3.JPG"/>
-            </a>
+            <img id="image_logo" class="imagen_juego" src="#"/>
+            <img id="image_1" class="imagen_juego" src="#"/>
+            <img id="image_2" class="imagen_juego" src="#"/>
+            <img id="image_3" class="imagen_juego" src="#"/>
         </div>
+        
+        <p class="nombre_juego">Controles
 
+        <table class="controls">
+            <tr>
+              <th>Arriba</th>
+              <th>Abajo</th>
+              <th>Derecha</th>
+              <th>Izquierda</th>
+              <th>Fuego</th>
+              <th>Pausa</th>
+            </tr>
+            <tr>
+              <td>&uarr;</td>
+              <td>&darr;</td>
+              <td>&rarr;</td>
+              <td>&larr;</td>
+              <td>Espacio</td>
+              <td>H</td>
+            </tr>
+        </table>
+        </p>    
 
     </body>
 
