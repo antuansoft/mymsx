@@ -17,4 +17,6 @@
     var image_game_1 = images_folder+"/"+game+"_1.JPG"
     var image_game_2 = images_folder+"/"+game+"_2.JPG"
     var image_game_3 = images_folder+"/"+game+"_3.JPG"
+    var controls = games_data.controls;
+    var description = games_data.description;
 

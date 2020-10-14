@@ -20,13 +20,15 @@
                 document.getElementById("image_1").src = image_game_1;
                 document.getElementById("image_2").src = image_game_2;
                 document.getElementById("image_3").src = image_game_3;
+                document.getElementById("controls").innerHTML = controls;
+                document.getElementById("description").innerHTML = description;
                 
                 
         }       
         </script>
     </head>
 
-    <body background="background/newyork.jpg">
+    <body background="background/sky-field.png">
 
         <p class="titulo1">
             Antuan Games
@@ -39,7 +41,9 @@
              </ul>
         </div>
         <p class="titulo3" id="game_name">JUEGO</p>
-
+        
+        <p class="nombre_juego" id="game_name">DESCRIPCION</p>
+        <p class="description" id="description"></p>
         <p class="nombre_juego">Screen-shots</p>
 
         <div class="caja_juego">
@@ -51,23 +55,8 @@
         
         <p class="nombre_juego">Controles
 
-        <table class="controls">
-            <tr>
-              <th>Arriba</th>
-              <th>Abajo</th>
-              <th>Derecha</th>
-              <th>Izquierda</th>
-              <th>Fuego</th>
-              <th>Pausa</th>
-            </tr>
-            <tr>
-              <td>&uarr;</td>
-              <td>&darr;</td>
-              <td>&rarr;</td>
-              <td>&larr;</td>
-              <td>Espacio</td>
-              <td>H</td>
-            </tr>
+        <table id="controls" class="controls">
+            
         </table>
         </p>    
 
