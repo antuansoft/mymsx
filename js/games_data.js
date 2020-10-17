@@ -30,3 +30,28 @@ var FreddyHardest = {
                   <td>SI</td>\
                 </tr> "
   };
+
+var Buitre = {
+    game_name: "Emilio Butragueño Fútbol",
+    breadcrumb_name: "Emilio Butragueño",
+    game_player_url: "player.html?TAPE_URL=games/BUTRAGUE.CAS&SCREEN_FULLSCREEN_MODE=1",
+    description: " Descripción.",
+    controls: " <tr> \
+                  <th>Arriba</th> \
+                  <th>Abajo</th> \
+                  <th>Derecha</th> \
+                  <th>Izquierda</th> \
+                  <th>Fuego</th>\
+                  <th>Pausa</th> \
+                  <th>Redefine</th> \
+                </tr> \
+                <tr> \
+                  <td>&uarr;</td> \
+                  <td>&darr;</td> \
+                  <td>&rarr;</td> \
+                  <td>&larr;</td> \
+                  <td>Espacio</td>\
+                  <td>H</td>\
+                  <td>SI</td>\
+                </tr> "
+  };

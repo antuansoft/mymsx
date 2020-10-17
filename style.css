@@ -100,12 +100,13 @@ a:active  {
     padding-right: 10px;
     height: auto;
     text-align: center;
+    
 
 }
 .imagen_seccion{
 
-    max-width: 20%;
-    max-height: 25%;
+    max-width: 500px;
+    max-height: 400px;
     
 }
 
@@ -138,6 +139,7 @@ a:active  {
     
 }
 
+/* controls table */
 .controls {
     font-family: "F1-regular", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -150,6 +152,7 @@ a:active  {
 .controls td, .controls th {
 border: 1px solid #ddd;
 padding: 8px;
+font-size: 24px;
 }
 
 .controls tr:nth-child(even){background-color: #f2f2f2;}
