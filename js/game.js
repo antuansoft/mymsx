@@ -12,7 +12,7 @@
     var name= games_data.name;
     var breadcrumb_name = games_data.breadcrumb_name;
     var game_name = games_data.game_name;
-    var game_player = games_data.game_player;
+    var game_player = games_data.game_player_url;
     var image_game_logo = images_folder+"/"+game+"_logo.JPG"
     var image_game_1 = images_folder+"/"+game+"_1.JPG"
     var image_game_2 = images_folder+"/"+game+"_2.JPG"
