@@ -19,4 +19,5 @@
     var image_game_3 = images_folder+"/"+game+"_3.JPG"
     var controls = games_data.controls;
     var description = games_data.description;
+    var trucos = games_data.trucos;
 

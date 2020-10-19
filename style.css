@@ -136,7 +136,11 @@ a:active  {
 
     max-width: 500px;
     max-height: 400px;
-    
+}
+
+.round_image{
+
+    border-radius: 50%;
 }
 
 /* controls table */

@@ -11,6 +11,7 @@ var FreddyHardest = {
                    la célula nuclear y encontrando el código de capitan de la nave para la nave seleccionada. <br> <br>\
                    Juegazo muy adictivo para el año que era. Pero todavía hoy merece pasarselo entero de nuevo. <br> <br>\
                    Por cierto la música super pegadiza, también te vas a enganchar a ella.",
+    trucos: "La clave para la segunda parte es 897653",
     controls: " <tr> \
                   <th>Arriba</th> \
                   <th>Abajo</th> \
@@ -35,7 +36,11 @@ var Buitre = {
     game_name: "Emilio Butragueño Fútbol",
     breadcrumb_name: "Emilio Butragueño",
     game_player_url: "player.html?TAPE_URL=games/BUTRAGUE.CAS&SCREEN_FULLSCREEN_MODE=1",
-    description: " Descripción.",
+    description: " Otra de mis primera adquisiciones y una de las mejores. Para mi es el juego de 8 bits de futbol con \
+    con plano cenital con mejor jubabilidad. Incorpora faltas, tarjetas, disparos a corta y larga distancia y otra cosa  que \
+    otros juegos ni tienen, la estirada de los porteros es especacular y super realista. Tiene un pequeño gran fallo, no tiene penalties, \
+    si haces una falta dentro del area no es PENALTY, y sólo son 15 minutos de partido, pero el resto del juego merece la pena.",
+    trucos: "Si quieres que sea más divertido y dificil pon la velocidad del emulador en 2x",
     controls: " <tr> \
                   <th>Arriba</th> \
                   <th>Abajo</th> \
@@ -46,12 +51,12 @@ var Buitre = {
                   <th>Redefine</th> \
                 </tr> \
                 <tr> \
-                  <td>&uarr;</td> \
-                  <td>&darr;</td> \
-                  <td>&rarr;</td> \
-                  <td>&larr;</td> \
+                  <td>Q</td> \
+                  <td>A</td> \
+                  <td>P</td> \
+                  <td>O</td> \
                   <td>Espacio</td>\
-                  <td>H</td>\
+                  <td></td>\
                   <td>SI</td>\
                 </tr> "
   };
