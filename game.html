@@ -22,8 +22,9 @@
                 document.getElementById("image_3").src = image_game_3;
                 document.getElementById("controls").innerHTML = controls;
                 document.getElementById("description").innerHTML = description;
-                document.getElementById("trucos").innerHTML = trucos;
-                
+                document.getElementById("trucos").innerHTML = tricks;
+                document.getElementById("game_mobile").innerHTML = game_mobile;
+                document.getElementById("image_pad").src = image_pad;
                 
         }       
         </script>
@@ -71,6 +72,11 @@
         <p class="nombre_juego" id="game_name">TRUCOS</p>
         <p class="description" id="trucos"></p>
    
+        <p class="nombre_juego" id="game_name">VERSION MOVIL</p>
+        <p class="description" id="game_mobile"></p>
+        <div class="caja_juego">
+            <img id="image_pad" class="imagen_juego" src="#"/>    
+        </div>        
         <p class="nombre_juego" id="game_name">JUGAR ONLINE</p>
         <div class="caja_juego">
             <a id="game_url" href="#" target="_blank">    

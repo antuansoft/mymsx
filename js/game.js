@@ -17,7 +17,9 @@
     var image_game_1 = images_folder+"/"+game+"_1.JPG"
     var image_game_2 = images_folder+"/"+game+"_2.JPG"
     var image_game_3 = images_folder+"/"+game+"_3.JPG"
+    var image_pad = images_folder+"/"+games_data.mobile_pad;
     var controls = games_data.controls;
     var description = games_data.description;
-    var trucos = games_data.trucos;
+    var tricks = games_data.tricks;
+    var game_mobile = games_data.game_mobile;
 
