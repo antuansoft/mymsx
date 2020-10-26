@@ -81,13 +81,12 @@ var Arkanoid = {
     y era el único que le gustaba en el ordenador. Es un juego muy sencillo que consiste en romper todo ladrillo que veas \
     en la pantalla. Cada nivel es distinto con disposición distinta de la pantalla, los ladrillos y los tipos de ladrillo \
     y solo quieres pasar a la siguiente pantalla, pero......a veces te matan antes y hay que empezar de nuevo.",
-    tricks: "Como en el emulador puedes guardar la partida espero que llegues muy lejos. Tus aliados con los ladrillos \
-    el de colo ROJO te permite disparar, el GRIS es vida extra y el MORADO CLARO te abre un pasadizo lateral al sigueinte nivel,\
-    y el AMARILLO hará que la bola sea más lenta, esos son los más poderosos úsalos adecuadamente.",
-    game_mobile: "Espera que cargue el juego, usa la opción de teclado para llegar al botón de espacio del teclado y elegir la opción de redefinir, despues pulsa en la rueda dentada \
-                  busca opción de Touch Setup y cambia el pad al que tiene las teclas moradas. Una vez seleccionado redefine pulsando en el pad \
-                  las distintas direcciones y el disparo. Una vez acabado pulsa cero en el teclado para jugar.",
-    mobile_pad: "purple_pad.JPG",
+    tricks: "Como en el emulador puedes guardar la partida, es el mejor arma espero que llegues muy lejos. Tus aliados con los ladrillos \
+    el de </br> color ROJO te permite disparar, </br>el GRIS es vida extra, </br>el MORADO CLARO te abre un pasadizo lateral al sigueinte nivel,\
+    y </br>el AMARILLO hará que la bola sea más lenta, esos son los más poderosos úsalos adecuadamente.",
+    game_mobile: "Espera que cargue el juego, pulsa en la rueda dentada \
+                  busca opción de Touch Setup y cambia el boton de disparo ESC por SPC, sal de la configuración, pulsa SPC y a jugar.",
+    mobile_pad: "grey_pad.JPG",
     controls: " <tr> \
                   <th>Arriba</th> \
                   <th>Abajo</th> \
