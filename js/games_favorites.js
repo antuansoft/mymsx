@@ -97,12 +97,12 @@ var Arkanoid = {
                   <th>Redefine</th> \
                 </tr> \
                 <tr> \
-                  <td>Q</td> \
-                  <td>A</td> \
-                  <td>P</td> \
-                  <td>O</td> \
+                  <td>&uarr;</td> \
+                  <td>&darr;</td> \
+                  <td>&rarr;</td> \
+                  <td>&larr;</td> \
                   <td>Espacio</td>\
                   <td></td>\
-                  <td>SI</td>\
+                  <td>NO</td>\
                 </tr> "
   };
