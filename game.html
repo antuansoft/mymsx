@@ -15,6 +15,7 @@
         window.onload = function(){
                 
                 document.getElementById("breadcrump_game").innerHTML = "/"+breadcrumb_name;
+                document.getElementById("breadcrump_level1").innerHTML = breadcrumb_lv1;
                 document.getElementById("game_name").innerHTML = game_name;
                 document.getElementById("game_url").href = game_player;
                 document.getElementById("image_logo").src = image_game_logo;
@@ -39,7 +40,9 @@
         <div class="migas">
             <ul>
                 <li><a href="index.html">Portada</a></li>
-                <li><a href="favorites.html">/Favoritos</a></li>
+                <li id="breadcrump_level1">
+                    ....
+                </li>
                 <li id="breadcrump_game">/Juego</li>
              </ul>
         </div>

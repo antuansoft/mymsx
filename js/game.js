@@ -11,6 +11,8 @@
     //load data   
     var name= games_data.name;
     var breadcrumb_name = games_data.breadcrumb_name;
+    var breadcrumb_lv1 = games_data.breadcrumb_level1;
+    var breadcrump_lv1_url = games_data.breadcrump_level1_url;
     var game_name = games_data.game_name;
     var game_player = games_data.game_player_url;
     var image_game_logo = images_folder+"/"+game+"_logo.JPG"

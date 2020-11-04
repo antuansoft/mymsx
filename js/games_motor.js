@@ -1,7 +1,9 @@
 var images_folder= "images"
+var breadcrumb_level1 = "<a href='motor.html'>/motor</a>";
 var F1Spirit = {
     game_name: "F1 Spirit",
     breadcrumb_name: "F1Spirit",
+    breadcrumb_level1: breadcrumb_level1,
     game_player_url: "player.html?DISK=games/F1Spirit.dsk&SCREEN_FULLSCREEN_MODE=1",
     description: "Creo que sin duda es uno de los mejores juegos de coches para MSX, pues pilotar un coche de rally,  prototipos, resistencia, un F3 y hasta un F1.\
     </br> Tiene para mi una opción que ninguno tenía que es la opción de parar en boxes a repostar y reparar el coche.\

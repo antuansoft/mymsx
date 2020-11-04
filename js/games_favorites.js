@@ -1,7 +1,9 @@
 var images_folder= "images"
+var breadcrumb_level1 = "<a href='favorites.html'>/favoritos</a>";
 var FreddyHardest = {
     game_name: "Freddy Hardest",
     breadcrumb_name: "Freddy Hardest",
+    breadcrumb_level1: breadcrumb_level1,
     game_player_url: "player.html?DISK=games/FreddyHardest.dsk&SCREEN_FULLSCREEN_MODE=1",
     description: " Genial juego super adictivo de 1987 hecho por la gran DINAMIC que fue uno de los primeros que compre, la trama es fácil \
                    Freddy es un chico guapo que pilotando su nave choca con un asteroide y se la pega en el planeta Ternat. <br> <br> \
@@ -40,6 +42,7 @@ var FreddyHardest = {
 var Buitre = {
     game_name: "Emilio Butragueño Fútbol",
     breadcrumb_name: "Emilio Butragueño",
+    breadcrumb_level1: breadcrumb_level1,
     game_player_url: "player.html?TAPE_URL=games/BUTRAGUE.CAS&SCREEN_FULLSCREEN_MODE=1",
     description: " Otra de mis primeras adquisiciones  esta de TOPOSOFT de 1988 y una de las mejores.\ Para mi es el juego de 8 bits de futbol con \
     vista aerea con mejor jubabilidad. Incorpora faltas, tarjetas, disparos a corta y larga distancia y otra cosa  que \
@@ -75,6 +78,7 @@ var Buitre = {
 var Arkanoid = {
     game_name: "Arkanoid",
     breadcrumb_name: "Arkanoid",
+    breadcrumb_level1: breadcrumb_level1,
     game_player_url: "player.html?DISK=games/Arkanoid.dsk&SCREEN_FULLSCREEN_MODE=1",
     description: " Yo creo que este fue uno de los primeros juegos a los que jugué cuando me trajeron mi MSX. \
     es un juegazo de 1986 de Taito, marca icónica en las recreativas. Mi padre llamaba a este juego el de los ladrillos \
