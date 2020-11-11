@@ -110,3 +110,34 @@ var Arkanoid = {
                   <td>NO</td>\
                 </tr> "
   };
+
+  var Knightmare = {
+    game_name: "Knightmare",
+    breadcrumb_name: "Knightmare",
+    breadcrumb_level1: breadcrumb_level1,
+    game_player_url: "player.html?DISK=games/Knightmare.dsk&SCREEN_FULLSCREEN_MODE=1",
+    description: "Este fue uno de mis juegos favoritos aventura bastante díficil que nunca conseguí pasarmelo. Tiene una \
+    una gran cantidad de Pows donde puedes coger velocidad, escudo, inmunidad, y multitud de armas.\
+    </br>.",
+    tricks: "Utiliza bien los Pows porque tener el mas importates es la velocidad y un buen disparo.",
+    game_mobile: ".",
+    mobile_pad: "grey_pad.JPG",
+    controls: " <tr> \
+                  <th>Arriba</th> \
+                  <th>Abajo</th> \
+                  <th>Derecha</th> \
+                  <th>Izquierda</th> \
+                  <th>Fuego</th>\
+                  <th>Pausa</th> \
+                  <th>Redefine</th> \
+                </tr> \
+                <tr> \
+                  <td>&uarr;</td> \
+                  <td>&darr;</td> \
+                  <td>&rarr;</td> \
+                  <td>&larr;</td> \
+                  <td>Espacio</td>\
+                  <td></td>\
+                  <td>NO</td>\
+                </tr> "
+  };
