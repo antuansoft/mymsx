@@ -115,7 +115,7 @@ var Arkanoid = {
     game_name: "Knightmare",
     breadcrumb_name: "Knightmare",
     breadcrumb_level1: breadcrumb_level1,
-    game_player_url: "player.html?DISK=games/Knightmare.dsk&SCREEN_FULLSCREEN_MODE=1",
+    game_player_url: "player.html?ROM=games/Knightmare.rom&SCREEN_FULLSCREEN_MODE=1",
     description: "Este fue uno de mis juegos favoritos aventura bastante díficil que nunca conseguí pasarmelo. Tiene una \
     una gran cantidad de Pows donde puedes coger velocidad, escudo, inmunidad, y multitud de armas.\
     </br>.",
