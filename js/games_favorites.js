@@ -117,10 +117,10 @@ var Arkanoid = {
     breadcrumb_level1: breadcrumb_level1,
     game_player_url: "player.html?ROM=games/Knightmare.rom&SCREEN_FULLSCREEN_MODE=1",
     description: "Este fue uno de mis juegos favoritos aventura bastante díficil que nunca conseguí pasarmelo. Tiene una \
-    una gran cantidad de Pows donde puedes coger velocidad, escudo, inmunidad, y multitud de armas.\
-    </br>.",
-    tricks: "Utiliza bien los Pows porque tener el mas importates es la velocidad y un buen disparo.",
-    game_mobile: ".",
+    una gran cantidad de Pows donde puedes coger velocidad, escudo, inmunidad, y multitud de armas. \
+    </br> Por último destacar la música super adictiva, muy trabajada e inolvidable.",
+    tricks: "Utiliza bien los Pows porque tener el mas importates es la velocidad y un buen disparo para mi gusto la doble espada.",
+    game_mobile: "Esta todo listo para jugar, controles de pad y espacio en el botón de teclado.",
     mobile_pad: "grey_pad.JPG",
     controls: " <tr> \
                   <th>Arriba</th> \
