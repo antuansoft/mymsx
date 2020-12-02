@@ -43,8 +43,9 @@ var Gpworld = {
     Si entras dentro del tiempo imdicado pasas al siguiente circuito y así sucesivamente, pero la parte que más me gusta del juego es la parte \
     más original para un juego de la época, la opción de EDIT que permite crear tu propio circuito. </br> hay que dedicarle un poco de tiempo al editor pero \
     merece la pena porque puede llegar a crear circuitos actuales y luego jugar en ellos. En las imágenes os dejo mi versión del circuit de catalunya barcelona.",
-    game_mobile: "Desde la opción del teclado tendrás que seleccionar el juego normal (0) o con todas las opciones habilitadas (1) \
-    Despues en la rueda dentada, busca opción de Touch Setup y configura dos teclas para que el SPC y la tecla N aparezcan, el pad ya está configurado.",
+    tricks: "Usa las marchas por debajo de 150km L(arriba) y por encima H (abajo), para frenar rapidamente también podemos por la marcha L (arriba). \
+    Tampoco te olvides de usar el freno que es muy útil. Y el secreto es no chocar que es cuanto más tiempo se pierde.",
+    game_mobile: "Ya está el teclado configurado, SPC para aceletar o la tecla A y la tecla B para frenar.",
     mobile_pad: "grey_pad.JPG",
     controls: " <tr> \
                   <th>Subir Marcha</th> \
