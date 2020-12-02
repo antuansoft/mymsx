@@ -80,6 +80,15 @@ a:active  {
     text-align: center;
 }
 
+.footer{
+    font-size: 15px;
+    line-height: 36px;
+    font-family: "ArcadeClassic";
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
 .nombre_seccion{
 
     font-size: 40px;

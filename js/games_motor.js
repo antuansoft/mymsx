@@ -33,3 +33,35 @@ var F1Spirit = {
                 </tr> ",
   };
 
+var Gpworld = {
+    game_name: "Gp World",
+    breadcrumb_name: "Gpworld",
+    breadcrumb_level1: breadcrumb_level1,
+    game_player_url: "player.html?ROM=games/Gpworld.rom&SCREEN_FULLSCREEN_MODE=1",
+    description: "Juego muy simple y sencillo de entender consiste en pasar los distintos circuitos, el objetivo es clasificarte en tiempo \
+    durante las 2 vueltas que tienes al circuito, salida en parado tienes hacer 2 vueltas en menos del tiempo estipulado para pasar a la siguiente. \
+    Si entras dentro del tiempo imdicado pasas al siguiente circuito y así sucesivamente, pero la parte que más me gusta del juego es la parte \
+    más original para un juego de la época, la opción de EDIT que permite crear tu propio circuito. </br> hay que dedicarle un poco de tiempo al editor pero \
+    merece la pena porque puede llegar a crear circuitos actuales y luego jugar en ellos. En las imágenes os dejo mi versión del circuit de catalunya barcelona.",
+    game_mobile: "Desde la opción del teclado tendrás que seleccionar el juego normal (0) o con todas las opciones habilitadas (1) \
+    Despues en la rueda dentada, busca opción de Touch Setup y configura dos teclas para que el SPC y la tecla N aparezcan, el pad ya está configurado.",
+    mobile_pad: "grey_pad.JPG",
+    controls: " <tr> \
+                  <th>Subir Marcha</th> \
+                  <th>Bajar Marcha</th> \
+                  <th>Derecha</th> \
+                  <th>Izquierda</th> \
+                  <th>Acelerar</th>\
+                  <th>Frenar</th> \
+                  <th>Redefine</th> \
+                </tr> \
+                <tr> \
+                  <td>&uarr;</td> \
+                  <td>&darr;</td> \
+                  <td>&rarr;</td> \
+                  <td>&larr;</td> \
+                  <td>Espacio</td>\
+                  <td>alt izquierdo</td>\
+                  <td>NO</td>\
+                </tr> ",
+};
