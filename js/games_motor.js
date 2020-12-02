@@ -45,7 +45,7 @@ var Gpworld = {
     merece la pena porque puede llegar a crear circuitos actuales y luego jugar en ellos. En las imágenes os dejo mi versión del circuit de catalunya barcelona.",
     tricks: "Usa las marchas por debajo de 150km L(arriba) y por encima H (abajo), para frenar rapidamente también podemos por la marcha L (arriba). \
     Tampoco te olvides de usar el freno que es muy útil. Y el secreto es no chocar que es cuanto más tiempo se pierde.",
-    game_mobile: "Ya está el teclado configurado, SPC para aceletar o la tecla A y la tecla B para frenar.",
+    game_mobile: "Ya está el teclado configurado, SPC para acelerar o la tecla A y la tecla B para frenar.",
     mobile_pad: "grey_pad.JPG",
     controls: " <tr> \
                   <th>Subir Marcha</th> \
