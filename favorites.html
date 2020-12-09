@@ -4,17 +4,20 @@
     <head lang="es">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYNXWL7X3R"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-TYNXWL7X3R');
-        </script>
         <meta charset="UTF-8">
         <title>ANTUAN - GAMES FAVORITOS</title>
         <meta name="Juegos MSX" content="mis juegos MSX favoritos ">
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="js/include.js"></script>
+        <script>
+            window.onload = function(){
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-TYNXWL7X3R');
+                includeHTML();
+            }
+        </script>
     </head>
 
     <body background="background/sky-field.png">

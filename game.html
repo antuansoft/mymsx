@@ -4,12 +4,6 @@
     <head lang="es">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYNXWL7X3R"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-TYNXWL7X3R');
-        </script>
         <meta charset="UTF-8">
         <title>ANTUAN - GAMES: Juego</title>
         <meta name="Juegos MSX" content="Juego: ">
@@ -17,10 +11,15 @@
         <script src="js/games_favorites.js"></script>
         <script src="js/games_motor.js"></script>
         <script src="js/game.js"></script>
+        <script src="js/include.js"></script>
+        <script>
+            window.onload = function(){
+            }
+        </script>
         <script>
         //ShowData
         window.onload = function(){
-                
+                document.title = "ANTUAN - GAMES: "+ game_name;
                 document.getElementById("breadcrump_game").innerHTML = "/"+breadcrumb_name;
                 document.getElementById("breadcrump_level1").innerHTML = breadcrumb_lv1;
                 document.getElementById("game_name").innerHTML = game_name;
@@ -34,16 +33,17 @@
                 document.getElementById("trucos").innerHTML = tricks;
                 document.getElementById("game_mobile").innerHTML = game_mobile;
                 document.getElementById("image_pad").src = image_pad;
-                document.title = "ANTUAN - GAMES: "+ game_name
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-TYNXWL7X3R');
+                includeHTML();
         }       
         </script>
     </head>
 
     <body background="background/sky-field.png">
-
-        <p class="titulo1">
-            Antuan Games
-        </p>
+        <div w3-include-html="header.html"></div>
         <div class="migas">
             <ul>
                 <li><a href="index.html">Portada</a></li>

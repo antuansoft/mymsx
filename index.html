@@ -4,13 +4,6 @@
     <head lang="es">
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYNXWL7X3R"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-TYNXWL7X3R');
-        </script>
         <meta charset="UTF-8">
         <title>ANTUAN - GAMES</title>
         <meta name="Juegos MSX" content="Recopilación de mis juegos favoritos ">
@@ -18,6 +11,10 @@
         <script src="js/include.js"></script>
         <script>
             window.onload = function(){
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-TYNXWL7X3R');
                 includeHTML();
             }
         </script>
@@ -45,6 +42,14 @@
         <div class="caja_seccion">
             <a href="motor.html">
                 <img class="imagen_seccion" src="images/motor.jpg"/>
+            </a>
+        </div>
+        <p class="nombre_seccion">
+            <a href="sports.html">Deportes</a>
+        </p>
+        <div class="caja_seccion">
+            <a href="sports.html">
+                <img class="imagen_seccion" src="images/sports.jpg"/>
             </a>
         </div>
         <p class="nombre_seccion">
