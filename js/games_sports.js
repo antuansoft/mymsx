@@ -16,8 +16,9 @@ var Dunkshot = {
     En cuanto haya una interrupción en el partido pulsa espacio y haz cambios con jugadores más frescos.</br>\
     Al principio cuesta que los jugadores encesten incluso estando al lado de la canasta, sólo ganando partidos irán progresando.\
     así que juega partidos con rivales de tu experiencia y también puedes intercambiar jugadores con la opción de trade.",
-    game_mobile: "",
-    mobile_pad: "grey_pad.JPG",
+    game_mobile: "Desde la opción de configuración del emulador pulsando la rueda dentada debemos pulsa la opción de Touch set up pinchar el el pad \
+    y seleccioar el pad de teclas moradas. Después no toques los botones A y B y pulsa en las teclas y en una pon el ESP y en otra el ESC",
+    mobile_pad: "purple_pad.JPG",
     controls: " <tr> \
                   <th>Arriba</th> \
                   <th>Abajo</th> \
