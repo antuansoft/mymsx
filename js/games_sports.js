@@ -28,6 +28,7 @@ var Dunkshot = {
                   <th>Cambio de jugador/cambio de formación</th> \
                   <th>Cambios</th> \
                   <th>Salir</th> \
+                  <th>Redefine</th> \
                 </tr> \
                 <tr> \
                   <td>&uarr;</td> \
@@ -38,6 +39,39 @@ var Dunkshot = {
                   <td>Enter</td>\
                   <td>Espacio</td>\
                   <td>ESC</td>\
+                  <td>NO</td>\
                 </tr> ",
   };
 
+  var images_folder= "images"
+  var breadcrumb_level1 = "<a href='sports.html'>/deportes</a>";
+  var Soccer = {
+      game_name: "Soccer",
+      breadcrumb_name: "Soccer",
+      breadcrumb_level1: breadcrumb_level1,
+      game_player_url: "player.html?ROM=games/Soccer.rom&SCREEN_FULLSCREEN_MODE=1",
+      description: "Mi primer juego de fútbol el Konami Soccer de 1985. Si lo pensamos bien para el año que era es un juegazo, obviamente \
+      tiene sus limitaciones, 6 jugadores cada equipo pero la jugabilidad es buenísima. A parte de que puedes elegir distintos equipos y jugar a 2 jugaroes\
+      lo que me llama la ateción con el tiempo es que no tenía faltas ni nada parecido pero tenía fuera de juego, cosas que no he vuelto a ver en nigún juego de 8 bits\
+      pero lo que hace mítico a este juego es la currada tanda de penalties que es de lo mejor.<br>\
+      Para echarle unas cuantas horas a nivel dificil, a pesar de que no tiene nade ligas ni copas ni nada, básico pero efectivo.",
+      tricks: "Para disparar a puerta deja el espacio pulsado y pasa pasar al compañero un ligero toco es suficiente.",
+      game_mobile: "",
+      mobile_pad: "grey_pad.JPG",
+      controls: " <tr> \
+                    <th>Arriba</th> \
+                    <th>Abajo</th> \
+                    <th>Derecha</th> \
+                    <th>Izquierda</th> \
+                    <th>Tirar/Pasar</th>\
+                    <th>Redefine</th> \
+                  </tr> \
+                  <tr> \
+                    <td>&uarr;</td> \
+                    <td>&darr;</td> \
+                    <td>&rarr;</td> \
+                    <td>&larr;</td> \
+                    <td>Espacio</td>\
+                    <td>NO</td>\
+                  </tr> ",
+  };
