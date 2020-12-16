@@ -56,7 +56,7 @@ var Dunkshot = {
       pero lo que hace mítico a este juego es la currada tanda de penalties que es de lo mejor.<br>\
       Para echarle unas cuantas horas a nivel dificil, a pesar de que no tiene nade ligas ni copas ni nada, básico pero efectivo.",
       tricks: "Para disparar a puerta deja el espacio pulsado y pasa pasar al compañero un ligero toco es suficiente.",
-      game_mobile: "",
+      game_mobile: "Listo para jugar, el pad para moverse y el disparo con la tecla A",
       mobile_pad: "grey_pad.JPG",
       controls: " <tr> \
                     <th>Arriba</th> \
