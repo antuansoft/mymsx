@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head lang="es">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYNXWL7X3R"></script>
+        <meta charset="UTF-8">
+        <title>ANTUAN - GAMES MOTOR</title>
+        <meta name="Juegos MSX" content="mis juegos MSX de motor">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="js/include.js"></script>
+        <script>
+            window.onload = function(){
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-TYNXWL7X3R');
+                includeHTML();
+            }
+        </script>
+    </head>
+
+    <body background="background/sky-field.png">
+        <div w3-include-html="header.html"></div>
+        <div class="migas">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <ul>
+                   <li>/Estrategia</li>
+                </ul>
+             </ul>
+        </div>
+        <p class="titulo3">MSX</p>
+
+        <a href="game.html?game=Chessgame2">
+            <p class="nombre_juego"> Chess 2</p>
+        </a>
+        <div class="caja_juego">
+            <a href="game.html?game=Chessgame2">
+                <img class="imagen_juego" src="images/Chessgame2_logo.JPG"/>
+            </a>
+            <a href="game.html?game=Chessgame2">
+                <img class="imagen_juego" src="images/Chessgame2_1.JPG"/>
+            </a>  
+        </div>
+
+    </body>
+
+</html>
