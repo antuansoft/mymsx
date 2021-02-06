@@ -14,13 +14,15 @@
         <script src="js/games_strategy.js"></script>
         <script src="js/game.js"></script>
         <script src="js/include.js"></script>
-        <script>
-            window.onload = function(){
-            }
-        </script>
+        <script src="js/referer.js"></script>
         <script>
         //ShowData
         window.onload = function(){
+                //Recupero el breadcrump en funciona de la página anterior, sino hay sigo usando el del propio juego.
+                var bcrumreferer = breadcrumbByReferer(document.referrer) 
+                if (bcrumreferer != null){
+                    breadcrumb_lv1 = bcrumreferer
+                }
                 document.title = "ANTUAN - GAMES: "+ game_name;
                 document.getElementById("breadcrump_game").innerHTML = "/"+breadcrumb_name;
                 document.getElementById("breadcrump_level1").innerHTML = breadcrumb_lv1;
