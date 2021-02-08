@@ -37,6 +37,10 @@
                 document.getElementById("trucos").innerHTML = tricks;
                 document.getElementById("game_mobile").innerHTML = game_mobile;
                 document.getElementById("image_pad").src = image_pad;
+                if (video != null){
+                    document.getElementById("video_name").innerHTML = "VIDEO";
+                    document.getElementById("game_video").innerHTML = '<iframe width="560" height="315" src="'+video+'" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';   
+                }
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
@@ -92,6 +96,8 @@
         <div class="caja_juego">
             <img id="image_pad" class="imagen_juego" src="#"/>    
         </div>        
+        <p class="nombre_juego" id="video_name"></p>
+        <p class="caja_juego" id="game_video"></p>
         <p class="nombre_juego" id="game_name">JUGAR ONLINE</p>
         <div class="caja_juego">
             <a id="game_url" href="#" target="_blank">    

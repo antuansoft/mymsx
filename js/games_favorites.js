@@ -122,6 +122,7 @@ var Arkanoid = {
     tricks: "Utiliza bien los Pows porque tener el mas importates es la velocidad y un buen disparo para mi gusto la doble espada.",
     game_mobile: "Esta todo listo para jugar, controles de pad y espacio en el botón de teclado.",
     mobile_pad: "grey_pad.JPG",
+    video: "https://www.youtube.com/embed/MbXfLq8P5qg",
     controls: " <tr> \
                   <th>Arriba</th> \
                   <th>Abajo</th> \
