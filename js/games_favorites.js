@@ -39,6 +39,48 @@ var FreddyHardest = {
                 </tr> ",
   };
 
+  var MatchDayII = {
+    game_name: "Match Day II",
+    breadcrumb_name: "Match Day II",
+    breadcrumb_level1: breadcrumb_level1,
+    game_player_url: "player.html?DISK=games/MatchDayII.dsk&SCREEN_FULLSCREEN_MODE=1",
+    description: "Sin duda el juego que más hora he jugado en el MSX hecho en 1987, para mi el mejor juego de futbol de 8 bits.\
+                  Con él empecé a interesarme por el mundo de los juegos con opciones de edición, como este juego \
+                  puede editar la equipación del equipo, longitud de partdios, dificultad, la opción de jugar de tacón y\
+                  puede EDITAR LOS NOMBRES de los 8 equipos. También es el primero que yo vio que tenía competciones de liga \
+                  y de copa, pudiendo elegir que partidos juegas como jugador o el ordenador simulará el resultado. \
+                  También incluye una opción para ver los partidos de computer vs computer, el primer modo visioanado cuand \
+                  eso no estaba de moda todavía. La novedad que incorporaba es que se puede jugar en modo colaborativo, dos jugadores \
+                  contra la máquina, una super novedad como todo lo que llevaba el juego. La jugabilidad es buenísima pudiendo hacer \
+                  jugadas distintas no siempre las misma, ya que tienes distintas opciones y potencias de disparo.",
+    tricks: "Configura la teclas para jugar con QAOP o cualquier configuración que no use las flechas ya que el disparo diagonal no funciona.\
+             Si te quedas parado y disparas, el disparo saldrá raso. Si un balón te llega de un pase y dejas el disparo apretado\
+             hará una volea y la potencia y velocidad será el doble.",
+    game_mobile: "",
+    mobile_pad: "grey_pad.JPG",
+    video: "https://www.youtube.com/embed/VpfdyRumESU",
+    controls: " <tr> \
+                  <th>Arriba</th> \
+                  <th>Abajo</th> \
+                  <th>Derecha</th> \
+                  <th>Izquierda</th> \
+                  <th>Fuego</th>\
+                  <th>mover por el menú</th> \
+                  <th>Selección</th> \
+                  <th>Redefine</th> \
+                </tr> \
+                <tr> \
+                  <td>&uarr;</td> \
+                  <td>&darr;</td> \
+                  <td>&rarr;</td> \
+                  <td>&larr;</td> \
+                  <td>Espacio</td>\
+                  <td>Cualquier tecla</td>\
+                  <td>Enter</td>\
+                  <td>SI</td>\
+                </tr> ",
+};
+
 var Buitre = {
     game_name: "Emilio Butragueño Fútbol",
     breadcrumb_name: "Emilio Butragueño",
