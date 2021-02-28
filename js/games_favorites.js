@@ -56,7 +56,10 @@ var FreddyHardest = {
     tricks: "Configura la teclas para jugar con QAOP o cualquier configuración que no use las flechas ya que el disparo diagonal no funciona.\
              Si te quedas parado y disparas, el disparo saldrá raso. Si un balón te llega de un pase y dejas el disparo apretado\
              hará una volea y la potencia y velocidad será el doble.",
-    game_mobile: "",
+    game_mobile: "Con el movil jugar es algo complicado porque para seleccionar alguna de las opciones del menú necesitamos el ENTER \
+                  Configuralo en la selecciona de posibles teclas en el teclado.</br> \
+                  Espera que cargue el juego, pulsa en la rueda dentada \
+                  busca opción de Touch Setup y cambia algún botón dejando el ENTER y el SPC",
     mobile_pad: "grey_pad.JPG",
     video: "https://www.youtube.com/embed/VpfdyRumESU",
     controls: " <tr> \
