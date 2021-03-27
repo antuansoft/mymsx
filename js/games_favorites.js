@@ -18,6 +18,7 @@ var FreddyHardest = {
                   la opción de redefinir. Una vez seleccionado redefine pulsando en el pad \
                   las distintas direcciones y el disparo. Una vez acabado pulsa 1 en el teclado para jugar. </br></br> \
                   Nota: Si pones el movil en horizontal tendrás la mejor vista para jugar.",
+    video: "https://www.youtube.com/embed/WyWOf-fXdig",
     mobile_pad: "grey_pad.JPG",
     controls: " <tr> \
                   <th>Arriba</th> \
@@ -100,6 +101,7 @@ var Buitre = {
                   busca opción de Touch Setup y cambia el pad al que tiene las teclas moradas. Una vez seleccionado redefine pulsando en el pad \
                   las distintas direcciones y el disparo. Una vez acabado pulsa cero en el teclado para jugar.",
     mobile_pad: "purple_pad.JPG",
+    video: "https://www.youtube.com/embed/xZFf8jLy2kA",
     controls: " <tr> \
                   <th>Arriba</th> \
                   <th>Abajo</th> \
@@ -136,6 +138,7 @@ var Arkanoid = {
     game_mobile: "Espera que cargue el juego, pulsa en la rueda dentada \
                   busca opción de Touch Setup y cambia el boton de disparo ESC por SPC, sal de la configuración, pulsa SPC y a jugar.",
     mobile_pad: "grey_pad.JPG",
+    video: "https://www.youtube.com/embed/-nrFU3yqQ1w",
     controls: " <tr> \
                   <th>Arriba</th> \
                   <th>Abajo</th> \

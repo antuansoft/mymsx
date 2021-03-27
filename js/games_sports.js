@@ -19,6 +19,7 @@ var Dunkshot = {
     game_mobile: "Desde la opción de configuración del emulador pulsando la rueda dentada debemos pulsa la opción de Touch set up pinchar el el pad \
     y seleccioar el pad de teclas moradas. Después no toques los botones A y B y pulsa en las teclas y en una pon el ESP y en otra el ESC",
     mobile_pad: "purple_pad.JPG",
+    video:"https://www.youtube.com/embed/XYRizVWJ2RA",
     controls: " <tr> \
                   <th>Arriba</th> \
                   <th>Abajo</th> \
@@ -58,6 +59,7 @@ var Dunkshot = {
       tricks: "Para disparar a puerta deja el espacio pulsado y pasa pasar al compañero un ligero toco es suficiente.",
       game_mobile: "Listo para jugar, el pad para moverse y el disparo con la tecla A",
       mobile_pad: "grey_pad.JPG",
+      video:"https://www.youtube.com/embed/5wqORyNz2So",
       controls: " <tr> \
                     <th>Arriba</th> \
                     <th>Abajo</th> \

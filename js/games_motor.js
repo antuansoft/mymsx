@@ -15,6 +15,7 @@ var F1Spirit = {
     game_mobile: "Desde la opción del teclado tendrás que seleccionar el juego normal (0) o con todas las opciones habilitadas (1) \
     Despues en la rueda dentada, busca opción de Touch Setup y configura dos teclas para que el SPC y la tecla N aparezcan, el pad ya está configurado.",
     mobile_pad: "grey_pad.JPG",
+    video:"https://www.youtube.com/embed/P_LzYWxCwOo",
     controls: " <tr> \
                   <th>Subir Marcha</th> \
                   <th>Bajar Marcha</th> \
@@ -47,6 +48,7 @@ var Gpworld = {
     Tampoco te olvides de usar el freno que es muy útil. Y el secreto es no chocar que es cuanto más tiempo se pierde.",
     game_mobile: "Ya está el teclado configurado, SPC para acelerar o la tecla A y la tecla B para frenar.",
     mobile_pad: "grey_pad.JPG",
+    video:"https://www.youtube.com/embed/PDXYKUnlrTY",
     controls: " <tr> \
                   <th>Subir Marcha</th> \
                   <th>Bajar Marcha</th> \
