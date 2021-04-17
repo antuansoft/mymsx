@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head lang="es">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYNXWL7X3R"></script>
+        <meta charset="UTF-8">
+        <title>ANTUAN - GAMES NAVES</title>
+        <meta name="Juegos MSX" content="mis juegos MSX de naves">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="js/include.js"></script>
+        <script>
+            window.onload = function(){
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-TYNXWL7X3R');
+                includeHTML();
+            }
+        </script>
+    </head>
+
+    <body background="background/clouds1.jpg">
+        <div w3-include-html="header.html"></div>
+        <div class="migas">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <ul>
+                   <li>/Naves</li>
+                </ul>
+             </ul>
+        </div>
+        <p class="titulo3">MSX</p>
+
+        <a href="game.html?game=SkyJaguar">
+            <p class="nombre_juego">Sky Jaguar</p>
+        </a>
+        <div class="caja_juego">
+            <a href="game.html?game=SkyJaguar">
+                <img class="imagen_juego" src="images/SkyJaguar_logo.JPG"/>
+            </a>
+            <a href="game.html?game=SkyJaguar">
+                <img class="imagen_juego" src="images/SkyJaguar_1.JPG"/>
+            </a>  
+        </div>
+
+    </body>
+
+</html>
