@@ -9,8 +9,7 @@ var SkyJaguar = {
                   y destruir a los distintos enemigos que nos atacan.",
     tricks: "Al matar enemigos aparecerá un objeto POW para cogerlo, eso incrementará tu capacidad de disparo y es vital para \
              lograr terminar el juego. Pero lo mejor es ser hábil con los controlos para escribar los multiples disparos.",
-    game_mobile: "Espera que cargue el juego, pulsa en la rueda dentada \
-    busca opción de Touch Setup y cambia un par de botones por SHP y SPC, sal de la configuración, pulsa SHP y a jugar.",
+    game_mobile: "Juego configurado y listo para jugar",
     mobile_pad: "purple_pad.JPG",
     video:"https://www.youtube.com/embed/pKyqZzgJ46c",
     controls: " <tr> \
