@@ -28,4 +28,30 @@ var OutRun = {
                   <td>NO</td>\
                 </tr> ",
   };
-
+  var BubbleBobble = {
+    game_name: "Bubble Bobble",
+    breadcrumb_name: "Bubble Bobble",
+    breadcrumb_level1: breadcrumb_level1,
+    game_player_url: "player.html?ROM=games/BubbleBobble.rom&SCREEN_FULLSCREEN_MODE=1",
+    description: "Es una version del clásico de la recreativa de 1987 hecho por Taito, yo diria que muy similar al original, \
+                  yo no soy muy de los juegos de plataformas pero este me encanta y menos mal que hay una version para MSX que es \
+                  clavadita al original.",
+    tricks: "",
+    game_mobile: "",
+    mobile_pad: "grey_pad.JPG",
+    video:"https://www.youtube.com/embed/k020DFTnxCE",
+    controls: " <tr> \
+                  <th>Derecha</th> \
+                  <th>Izquierda</th> \
+                  <th>saltar</th>\
+                  <th>disparo</th>\
+                  <th>Redefine</th> \
+                </tr> \
+                <tr> \
+                  <td>&rarr;</td> \
+                  <td>&larr;</td> \
+                  <td>espacio</td>\
+                  <td>alt iquierdo</td>\
+                  <td>NO</td>\
+                </tr> ",
+  };
