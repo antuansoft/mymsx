@@ -8,7 +8,7 @@ var OutRun = {
     description: "Es una version del clásico de la recreativa de 1988 hecho por Pony Canyon, no está nada mal la música, lo graficos flojean pero no es un mal \
                   simulador de la recreativa original",
     tricks: "No te emociones demasiado el truco está en no chocar, así que en las curvas mucho cuidado. Si vuelvas el coche date por perdido.",
-    game_mobile: "Listo para jugar en movil.",
+    game_mobile: "Listo para jugar en movil. Mados del pad y A y B",
     mobile_pad: "grey_pad.JPG",
     video:"https://www.youtube.com/embed/pVr-HfKHbjI?start=50",
     controls: " <tr> \
