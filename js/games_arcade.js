@@ -43,8 +43,8 @@ var OutRun = {
     controls: " <tr> \
                   <th>Derecha</th> \
                   <th>Izquierda</th> \
-                  <th>saltar</th>\
-                  <th>disparo</th>\
+                  <th>Saltar</th>\
+                  <th>Disparo</th>\
                   <th>Redefine</th> \
                 </tr> \
                 <tr> \
@@ -52,6 +52,34 @@ var OutRun = {
                   <td>&larr;</td> \
                   <td>espacio</td>\
                   <td>alt iquierdo</td>\
+                  <td>NO</td>\
+                </tr> ",
+  };
+  var Pacman = {
+    game_name: "Pac-man",
+    breadcrumb_name: "Pac-man",
+    breadcrumb_level1: breadcrumb_level1,
+    game_player_url: "player.html?ROM=games/Pacman.rom&SCREEN_FULLSCREEN_MODE=1",
+    description: "Es una version del clásico de la recreativa de 1984 hecho por Nancot, la version para 8 bits de la super conocida NAMCO. \
+                  Es el comecocos de toda la vida donde tienes que comer todas las pastillas amarillas sin que los fantasmas te atrapen.",
+    tricks: "Si te ves muy agobiado coge las pastillas grandes y podrás comerte tu a los fantasmas. Y si no tienes pastillas grandes \
+             si vas a la parte del medio será mucho más fácil librate de los fantasmas que en las esquinas donde son mucho más agresivos. \
+             Un último truco es que empieces siempre a comer por abajo ya que los fantasmas siempre se van hacía arriba.",
+    game_mobile: "Todo configurado por defecto para jugar desde el movil",
+    mobile_pad: "grey_pad.JPG",
+    video:"https://www.youtube.com/embed/f4Lr2bxFmfM?start=44",
+    controls: " <tr> \
+                  <th>Derecha</th> \
+                  <th>Izquierda</th> \
+                  <th>Arriba</th>\
+                  <th>Abajo</th>\
+                  <th>Redefine</th> \
+                </tr> \
+                <tr> \
+                  <td>&rarr;</td> \
+                  <td>&larr;</td> \
+                  <td>&uarr;</td>\
+                  <td>&darr;</td>\
                   <td>NO</td>\
                 </tr> ",
   };
