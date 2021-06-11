@@ -26,7 +26,7 @@ var pruebas = {
     var breadcrumb_lv1 = games_data.breadcrumb_level1;
     var breadcrump_lv1_url = games_data.breadcrump_level1_url;
     var game_name = games_data.game_name;
-    var game_player = games_data.game_player_url;
+    var game_player = games_data.game_player_url+"&name="+game_name;
     var image_game_logo = images_folder+"/"+game+"_logo.JPG"
     var image_game_1 = images_folder+"/"+game+"_1.JPG"
     var image_game_2 = images_folder+"/"+game+"_2.JPG"

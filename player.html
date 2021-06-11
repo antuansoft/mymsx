@@ -13,6 +13,13 @@
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-TYNXWL7X3R');
+                const queryString = window.location.search;
+                const urlParams = new URLSearchParams(queryString);
+                const name = urlParams.get('name') 
+                if (!name){
+                    name = ""
+                }
+                document.title = "MSX PLAYER: "+ name;
             }
         </script>
 
