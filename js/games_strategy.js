@@ -28,4 +28,38 @@ var Chessgame2 = {
                   <td>NO</td>\
                 </tr> ",
 };
-
+var Tetris = {
+  game_name: "Tetris",
+  breadcrumb_name: "Tetris",
+  breadcrumb_level1: breadcrumb_level1,
+  game_player_url: "player.html?ROM=games/Tetris.rom&SCREEN_FULLSCREEN_MODE=1",
+  description: "Es una version del <a href='https://www.muyinteresante.es/muy-gamer/articulo/la-historia-de-tetris-el-gran-rompecabezas-sovietico-591562239685'  target='_blank'>clásico Tetris de Alexey Pajitnov de 1985</a>, \
+                que fue publicado por BPS en 1988. No se parece a la recreativa.\
+                hay distintas versiones para MSX pero esta es la que más me ha gustado, especialmente por las músicas que son las de la recreativa \
+                y las podemos elegir al más puro estilo outrun. </br> \
+                La jugabilidad no es mala sólo hay una cosa que no me gusta, no podemo bajar la pieza hasta abajo. </br>\
+                Podemos elegir las fases y cada vez se irá complicando todo. Creo que es un buen juego para pasar un rato \
+                y enseñarselo a tus hijos para que usen la cabeza. </br> \
+                La verdad es que de crio cuando lo venía en un recreativo o bar no les hacía ni caso, no me gustaba nada.",
+  tricks: "Si quieres conseguir más puntos tienes que preparar los bloques para conseguir 4 línea de golpe y eso te dará la mayor \
+           cantidad de puntos",
+  game_mobile: "Todo configurado por defecto para jugar desde el movil",
+  mobile_pad: "grey_pad.JPG",
+  video:"https://www.youtube.com/embed/K7MR6ffPyd4",
+  controls: " <tr> \
+                <th>Derecha</th> \
+                <th>Izquierda</th> \
+                <th>Cambiar posicion de la pieza</th>\
+                <th>Mostrar/ocultar la siguiente pieza</th>\
+                <th>Colocar pieza, baja hasta el final</th>\
+                <th>Redefine</th> \
+              </tr> \
+              <tr> \
+                <td>&rarr;</td> \
+                <td>&larr;</td> \
+                <td>&darr;</td>\
+                <td>&uarr;</td>\
+                <td>espacio</td>\
+                <td>NO</td>\
+              </tr> ",
+};

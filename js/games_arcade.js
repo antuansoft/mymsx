@@ -27,8 +27,8 @@ var OutRun = {
                   <td>espacio</td>\
                   <td>NO</td>\
                 </tr> ",
-  };
-  var BubbleBobble = {
+};
+var BubbleBobble = {
     game_name: "Bubble Bobble",
     breadcrumb_name: "Bubble Bobble",
     breadcrumb_level1: breadcrumb_level1,
@@ -54,8 +54,8 @@ var OutRun = {
                   <td>alt iquierdo</td>\
                   <td>NO</td>\
                 </tr> ",
-  };
-  var Pacman = {
+};
+var Pacman = {
     game_name: "Pac-man",
     breadcrumb_name: "Pac-man",
     breadcrumb_level1: breadcrumb_level1,
