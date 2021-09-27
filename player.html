@@ -9,10 +9,7 @@
         <meta name="description" content="WebMSX - The online MSX emulator">
         <script>
             window.onload = function(){
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-TYNXWL7X3R');
+                //Set Tittle
                 const queryString = window.location.search;
                 const urlParams = new URLSearchParams(queryString);
                 const name = urlParams.get('name') 
@@ -20,6 +17,11 @@
                     name = ""
                 }
                 document.title = "MSX PLAYER: "+ name;
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-TYNXWL7X3R');
+                
             }
         </script>
 

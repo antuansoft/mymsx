@@ -5,6 +5,7 @@
     var indexStr = referer.indexOf("strategy")   
     var indexArc = referer.indexOf("arcade")   
     var indexWar = referer.indexOf("guerra")   
+    var indexAdv = referer.indexOf("adventure")   
     
     if (indexFav>=0)
       return "<a href='favorites.html'>/favoritos</a>";
@@ -18,6 +19,8 @@
       return "<a href='arcade.html'>/arcade</a>"
     else if (indexWar>=0)
       return "<a href='war.html'>/guerra</a>";
+    else if (indexAdv>=0)
+      return "<a href='adventure.html'>/aventuras</a>";
     else 
       return null;
   }
