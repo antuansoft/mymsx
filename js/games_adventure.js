@@ -26,10 +26,10 @@ var GameOver = {
                   <th>SI</th> \
                 </tr> \
                 <tr> \
-                  <td>&uarr;</td> \
-                  <td>&darr;</td> \
-                  <td>&rarr;</td> \
-                  <td>&larr;</td> \
+                  <td>Q</td> \
+                  <td>A</td> \
+                  <td>P</td> \
+                  <td>O</td> \
                   <td>espacio</td>\
                   <td>Alt-izquierdo</td>\
                   <td>H</td>\
