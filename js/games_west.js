@@ -5,10 +5,10 @@ var Desperado = {
     breadcrumb_name: "Desperado",
     breadcrumb_level1: breadcrumb_level1,
     game_player_url: "player.html?DISK=games/Desperado.dsk&SCREEN_FULLSCREEN_MODE=1",
-    description: "Era el juego del ordenado que nos hacía soñar con el Gun Smoke, no era una conversion como tal pero era \
+    description: "Era el juego del ordenador que nos hacía soñar con el Gun Smoke, no era una conversion como tal pero era \
                   la versión española de 8bits de ese gran juego. Y me parece un trabajazo de Topo Soft de 1987, son 5 fases \
                   cada una de ellas ambienda en un sitio diferente y un enemigo final diferente como en la recreativa. \
-                  El juego es dificil y es complicado de pasartelo pero en cada fase tiene tipos de 3 enemigos \
+                  El juego es dificil y es complicado de pasartelo pero en cada fase tiene 3 tipos de enemigos distintos \
                   sobre todo los que llegan por detrás son los más complicados. \
                   Fue uno de mis juegos de pequeño y lo jugué poco porque tenía el juego en cinta y con la cinta cargaba cuando quería.\
                   Es genial la gran cantidad de decorados que presenta, el pueblo, el tren, el desfiladero, el rio y el poblado indio \
