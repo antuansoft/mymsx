@@ -17,8 +17,8 @@ var Desperado = {
              Para mi el mejor consejo es estar por encima en la pantalla y evitar a los enemigos de abajo que van a por ti, \
              acercate a ellos y antes de que te disparen mueve otro lado y dejarar de seguirte, en cuanto te disparan se paran.",
     game_mobile: "Espera que cargue el juego, pulsa en la rueda dentada \
-    busca opción de Touch Setup y cambia un par de botones por SHP y SPC, sal de la configuración, pulsa SHP y a jugar.",
-    mobile_pad: "grey_pad.JPG",
+    busca opción de Touch Setup y el touch pad al morado, después redefine las teclas poniendo los cursores y el espacio como disparo..",
+    mobile_pad: "purple_pad.JPG",
     video:"https://www.youtube.com/embed/IGfwcLVnRWk",
     controls: " <tr> \
                   <th>Arriba</th> \
