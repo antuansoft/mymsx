@@ -23,7 +23,9 @@ var Aleste = {
                 <th>Abajo</th> \
                 <th>Derecha</th> \
                 <th>Izquierda</th> \
-                <th>Disparo</th>\
+                <th>Disparo principal</th>\
+                <th>Disparo secundario</th>\
+                <th>Autofire</th>\
                 <th>Redefine</th> \
               </tr> \
               <tr> \
@@ -31,6 +33,8 @@ var Aleste = {
                 <td>&darr;</td> \
                 <td>&rarr;</td> \
                 <td>&larr;</td> \
+                <td>shift</td>\
+                <td>Z</td>\
                 <td>espacio</td>\
                 <td>NO</td>\
               </tr> ",
