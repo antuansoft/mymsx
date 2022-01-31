@@ -91,8 +91,9 @@ var Dunkshot = {
                     Lend, Willander, Mc Enroe, etc.. y juegas en los 4 torneos de Grand Slam Open Australia, Roland Garros, Willedom y Usa Open. <br>\
                     Por gráficos, originalidad, movimiento, versatilidad de golpes, la física del juego que hacerla ha debído de ser complicada, para mi\
                     es el mejor juego de tenis de 8 bits. Disfrutadlo.",
-      game_mobile: "Listo para jugar.",
-      mobile_pad: "grey_pad.JPG",
+      tricks: "Lo mejor es mover al rival de lado a lado, para buscar los huecos.",
+      game_mobile: "No es posible jugar desde el movil, al menos yo no he podido configurarlo. Abrelo en el navegador del ordenador y a jugar!!!",
+      mobile_pad: "#",
       video:"https://www.youtube.com/embed/CeoRkxwJD1E?start=50",
       controls: " <tr> \
                     <th>Arriba</th> \
