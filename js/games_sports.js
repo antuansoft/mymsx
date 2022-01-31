@@ -44,10 +44,8 @@ var Dunkshot = {
                 </tr> ",
   };
 
-  var images_folder= "images"
-  var breadcrumb_level1 = "<a href='sports.html'>/deportes</a>";
   var Soccer = {
-      game_name: "Soccer",
+      game_name: "Konami´s Soccer",
       breadcrumb_name: "Soccer",
       breadcrumb_level1: breadcrumb_level1,
       game_player_url: "player.html?ROM=games/Soccer.rom&SCREEN_FULLSCREEN_MODE=1",
@@ -75,5 +73,41 @@ var Dunkshot = {
                     <td>&larr;</td> \
                     <td>Espacio</td>\
                     <td>NO</td>\
+                  </tr> ",
+  };
+
+  var Vicario = {
+      game_name: "Emilio Sanchez Vicario, Grand Slam",
+      breadcrumb_name: "Emilio sanchez vicario",
+      breadcrumb_level1: breadcrumb_level1,
+      game_player_url: "player.html?TAPE_URL=games/SVICARIO.CAS&SCREEN_FULLSCREEN_MODE=1&BOOT_KEYS=SHIFT",
+      description: "Coincidiendo con el título de Grand Slam número 21 de Rafael Nadal al ganar su segundo open de Australia \
+                    hoy día 30/01/2022. Sirva de homaje a este hecho el mejor juego para mi de 8 bits de tenis. <br>\
+                    Es un poco raro de jugar pero en cuanto le coges es truco es un juego fantástico, el método es sencillo.<br> \
+                    Cuando nos toca golpear manejas un punto de mira en la pista que es donde vas a mandar la bola y cuando va a \
+                    golepar el rival controlamos el movimiento del jugador para situarlo en pista. Pulsando el botón de disparo \
+                    cambiarmos el tipo de disparo drive/reves, globo, dajada y si estamos en la red volea.<br>\
+                    Fue el primero en poner un jugardor profisional y los nombre de los rivales son los auténticos de la época, \
+                    Lend, Willander, Mc Enroe, etc.. y juegas en los 4 torneos de Grand Slam Open Australia, Roland Garros, Willedom y Usa Open. <br>\
+                    Por gráficos, originalidad, movimiento, versatilidad de golpes, la física del juego que hacerla ha debído de ser complicada, para mi\
+                    es el mejor juego de tenis de 8 bits. Disfrutadlo.",
+      game_mobile: "Listo para jugar.",
+      mobile_pad: "grey_pad.JPG",
+      video:"https://www.youtube.com/embed/CeoRkxwJD1E?start=50",
+      controls: " <tr> \
+                    <th>Arriba</th> \
+                    <th>Abajo</th> \
+                    <th>Derecha</th> \
+                    <th>Izquierda</th> \
+                    <th>Cambiar Golpe</th>\
+                    <th>Redefine</th> \
+                  </tr> \
+                  <tr> \
+                    <td>Q</td> \
+                    <td>A</td> \
+                    <td>P</td> \
+                    <td>O</td> \
+                    <td>Espacio</td>\
+                    <td>SI</td>\
                   </tr> ",
   };
