@@ -6,7 +6,7 @@ var BatmanMovie = {
     breadcrumb_level1: breadcrumb_level1,
     game_player_url: "player.html?DISK=games/BatmanMovie.dsk&SCREEN_FULLSCREEN_MODE=1",
     description: "Juego producido por OCEAN en el año 1989, un juego muy acorde con la pelicula, uno de las mejores versiones del género y muy entretenido.<br>\
-                  Muy recomendable ver la película para entender bien el juego, tendremos 4 fases dos de ellas similares la primera en el la planta química donde tendremos \
+                  Muy recomendable ver la película para entender bien el juego, tendremos 5 fases dos de ellas similares la primera en el la planta química donde tendremos \
                   que encontra al que será el futuro Joker. <br> En la segunda false conduciermos el batmovil por la ciudad para encontrar la batcueva lo más rápidamente posible\
                   <br> en la fase 3 tendremos que hacer un juego de habídad para descubir cuales son lo productos envenenados por el Joker.<br> En la fase 4 conduciermos la batnave\
                   donde el objetivo es eliminar todos los globos envenados. En la fase 5 volvermos a manejar a nuestro héroe enmascarado en la catedral para volver a encontrar al joker y 'capturarlo'" ,
