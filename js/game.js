@@ -1,4 +1,3 @@
-var pruebas
 var images_folder= "images"
 var breadcrumb_level1 = "<a href='pruebas.html'>/Pruebas</a>";
 var pruebas = {
